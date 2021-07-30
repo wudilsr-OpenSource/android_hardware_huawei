@@ -13,4 +13,7 @@ ifneq ($(TARGET_PROVIDES_LIBLIGHT), true)
 include $(HARDWARE_PATH)/lights/Android.mk
 endif
 
+# Macloader
+include $(HARDWARE_PATH)/mac_nvme/Android.mk
+
 endif
