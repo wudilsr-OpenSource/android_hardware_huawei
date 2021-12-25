@@ -8,4 +8,9 @@ HARDWARE_PATH := $(call my-dir)
 
 ifeq ($(BOARD_VENDOR),huawei)
 
+# Lights
+ifneq ($(TARGET_PROVIDES_LIBLIGHT), true)
+include $(HARDWARE_PATH)/lights/Android.mk
+endif
+
 endif
