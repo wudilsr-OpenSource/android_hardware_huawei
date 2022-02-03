@@ -1,4 +1,4 @@
-on post-fs-data
+on property:sys.userdata_is_ready=1
     mkdir /data/vendor/wifi 0771 wifi wifi
     mkdir /data/vendor/bluedroid 0771 bluetooth bluetooth
     start mac_nvme
