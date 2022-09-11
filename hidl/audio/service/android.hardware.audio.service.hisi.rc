@@ -1,4 +1,4 @@
-service vendor.audio-hal /vendor/bin/hw/android.hardware.audio.service_64
+service vendor.audio-hal /vendor/bin/hw/android.hardware.audio.service.hisi
     class hal
     user audioserver
     # media gid needed for /dev/fm (radio) and for /data/misc/media (tee)
